@@ -28,7 +28,7 @@ body { margin: 0; padding: 0; }
             // use the tiles option to specify a WMS tile source URL
             // https://docs.mapbox.com/mapbox-gl-js/style-spec/sources/
             'tiles': [
-                'https://luna.flemingcollege.ca/arcgis/rest/services/bigbrains60/CanadaKhyndman/MapServer/export?bbox=3832075.278994998%2C430201.3561450001%2C8873100.363804998%2C5471226.440955&bboxSR=&layers=&layerDefs=&size=&imageSR=&historicMoment=&format=png&transparent=true&dpi=&time=&timeRelation=esriTimeRelationOverlaps&layerTimeOptions=&dynamicLayers=&gdbVersion=&mapScale=&rotation=&datumTransformations=&layerParameterValues=&mapRangeValues=&layerRangeValues=&clipping=&spatialFilter=&f=image'
+                'https://luna.flemingcollege.ca/arcgis/rest/services/bigbrains60/CanadaKhyndman/MapServer/export?bbox={bbox-espg-3857}&bboxSR=EPSG%3A3857&layers=0&layerDefs=&size=256%2c256&imageSR=&historicMoment=&format=png&transparent=true&dpi=&time=&timeRelation=esriTimeRelationOverlaps&layerTimeOptions=&dynamicLayers=&gdbVersion=&mapScale=&rotation=&datumTransformations=&layerParameterValues=&mapRangeValues=&layerRangeValues=&clipping=&spatialFilter=&f=image'
             ],
             'tileSize': 256
         });
